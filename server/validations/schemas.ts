@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-// 👤 1. USER VALIDATION SCHEMA
+//  1. USER VALIDATION SCHEMA
 export const registerUserSchema = z.object({
   body: z.object({
     personalDetails: z.object({
@@ -67,7 +67,7 @@ export const registerUserSchema = z.object({
   }),
 });
 
-// 📢 2. SYNDICATE GROUP VALIDATION SCHEMA
+// 2. SYNDICATE GROUP VALIDATION SCHEMA
 export const createSyndicateSchema = z.object({
   body: z.object({
     name: z.string().min(1, "Syndicate group name is required").min(3),
