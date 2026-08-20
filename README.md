@@ -39,8 +39,8 @@ To launch fast and stay lean, this project deliberately strips away operational 
 
 ```text
 simunye-app/
-├── backend/       # Express.js API (TypeScript)
-└── frontend/      # React Client (TypeScript)
+├── server/       # Express.js API (TypeScript)
+└── client/      # React Client (TypeScript)
 ```
 
 ---
