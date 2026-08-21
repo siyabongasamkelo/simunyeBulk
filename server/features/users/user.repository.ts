@@ -1,4 +1,4 @@
-import { User, IUser } from "../models/User";
+import { User, IUser } from "./user.model";
 
 export class UserRepository {
   async findByPhone(phone: string): Promise<IUser | null> {

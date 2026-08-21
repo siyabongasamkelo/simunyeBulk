@@ -1,7 +1,7 @@
-import { UserRepository } from "../repositories/userRepository";
-import { ApiError } from "../utils/ApiError";
-import logger from "../utils/logger";
-import { IUser } from "../models/User";
+import { UserRepository } from "./user.repository";
+import { ApiError } from "../../utils/ApiError";
+import logger from "../../utils/logger";
+import { IUser } from "./user.model";
 
 // Use our decoupled 'repo' variable instead of the hardcoded class
 const repo = new UserRepository();

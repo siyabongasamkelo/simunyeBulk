@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { SyndicateGroupController } from "../controllers/syndicateGroupController";
-import { validate } from "../middleware/validate";
-import { createSyndicateSchema } from "../validations/schemas";
+import { SyndicateGroupController } from "./syndicate.controller";
+import { validate } from "../../middleware/validate";
+import { createSyndicateSchema } from "../../validations/schemas";
 
 const router = Router();
 

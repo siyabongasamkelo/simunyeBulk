@@ -1,7 +1,7 @@
-import { SyndicateGroupRepository } from "../repositories/syndicateGroupRepository";
-import { ApiError } from "../utils/ApiError";
-import logger from "../utils/logger";
-import { ISyndicateGroup } from "../models/SyndicateGroup";
+import { SyndicateGroupRepository } from "./syndicate.Repository";
+import { ApiError } from "../../utils/ApiError";
+import logger from "../../utils/logger";
+import { ISyndicateGroup } from "./syndicate.model";
 
 // If the database structure or repository name changes, you only touch this one line!
 const repo = new SyndicateGroupRepository();

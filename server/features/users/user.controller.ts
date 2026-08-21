@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { UserService } from "../services/userService";
-import logger from "../utils/logger";
+import { UserService } from "./user.service";
+import logger from "../../utils/logger";
 
 export class UserController {
   // 1. REGISTER A NEW COMMUNITY MEMBER

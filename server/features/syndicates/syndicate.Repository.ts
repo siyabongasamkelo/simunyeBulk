@@ -1,4 +1,4 @@
-import { SyndicateGroup, ISyndicateGroup } from "../models/SyndicateGroup";
+import { SyndicateGroup, ISyndicateGroup } from "./syndicate.model";
 import { Types } from "mongoose";
 
 export class SyndicateGroupRepository {

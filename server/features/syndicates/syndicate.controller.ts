@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { SyndicateGroupService } from "../services/syndicateGroupService";
-import logger from "../utils/logger";
+import { SyndicateGroupService } from "./syndicate.service";
+import logger from "../../utils/logger";
 
 export class SyndicateGroupController {
   // 1. CREATE A NEW SYNDICATE BUYING POOL

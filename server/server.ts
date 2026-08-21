@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
-import userRoutes from "./routes/userRoutes";
-import syndicateRoutes from "./routes/syndicateRoutes";
+import userRoutes from "./features/users/user.routes";
+import syndicateRoutes from "./features/syndicates/syndicate.routes";
 
 const app = express();
 
